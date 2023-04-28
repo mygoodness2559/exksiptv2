@@ -96,8 +96,8 @@ service mysql restart
 echo -e " \e[32mInstalling Ministra Portal $VERSION \e[0m"
 sleep 3
 cd /var/www/html/
-wget $repository/ministra-$VERSION.zip
-unzip ministra-$VERSION.zip
+wget http://download.ministra.com/downloads/180051ddbc93f977ed3fa3758f907df6/ministra-5.6.10.zip
+unzip ministra-5.6.10.zip
 rm -rf *.zip
 
 
