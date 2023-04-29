@@ -92,8 +92,8 @@ service mysql restart
 
 echo "Installing Ministra..."
 cd /var/www/html/
-wget $ministra_source
-unzip ministra-5.6.9.zip
+wget http://download.ministra.com/downloads/180051ddbc93f977ed3fa3758f907df6/ministra-5.6.10.zip
+unzip ministra-5.6.10.zip
 rm -rf *.zip
 rm /var/www/html/index*
 touch /var/www/html/index.php
