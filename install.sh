@@ -11,8 +11,8 @@ echo ""
 while true; do
     read -p "Do you want to install Ministra direclt from their servers? " yn
     case $yn in
-        [Yy]* ) ministra_source=http://download.ministra.com/downloads/180051ddbc93f977ed3fa3758f907df6/ministra-5.6.10.zip; break;;
-        [Nn]* ) ministra_source=http://download.ministra.com/downloads/180051ddbc93f977ed3fa3758f907df6/ministra-5.6.10.zip; break;;
+        [Yy]* ) ministra_source=http://download.ministra.com/downloads/159934057961c4dfe9153ee02d7e3fb1/ministra-5.6.9.zip; break;;
+        [Nn]* ) ministra_source=https://files.scripting.online/ministra_569/ministra-5.6.9.zip; break;;
         * ) echo "Please answer yes or no.";;
     esac
 done
